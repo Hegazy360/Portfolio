@@ -1,0 +1,161 @@
+body {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 2vw;
+}
+
+.main {
+  margin-top: 20px;
+  padding-top: 10px;
+  margin-bottom: 80px;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #FAFAFA;
+}
+
+.navbar-inverse .navbar-right ul>li a {
+  color: #BDBDBD;
+}
+
+
+.title {
+  margin: 40px;
+  margin-bottom: 0px;
+  font-size: 40px;
+  font-family: 'Fondamento', cursive;
+  text-decoration: underline;
+}
+
+.title.portfolio,.title.contact {
+  margin: 40px;
+}
+
+.intro {
+  margin-top: 40px;
+}
+
+hr {
+  border-color: #BDBDBD;
+  width: 70%;
+  margin-top: 50px;
+}
+
+.portrait {
+  border-radius: 50%;
+  height: 185px;
+  margin-top: 15px;
+  margin-left: 20px;
+  box-shadow: 2px 2px 8px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.carousel-caption {
+  padding-top: 0;
+}
+
+.carousel-caption:hover,
+.carousel-indicators:hover {
+  background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+  /* Standard syntax (must be last) */
+}
+
+a {
+  color: #90A4AE;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #FAFAFA;
+  font-weight: bold;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  margin: auto;
+  width: auto;
+  justify-content: center;
+}
+
+@media (max-width:1100px) {
+  .flex-row {
+    flex-wrap: wrap;
+  }
+  .portrait {
+    margin: auto;
+    margin-top: 10px;
+  }
+}
+
+#carousel {
+  margin-bottom: 50px;
+}
+
+.img-thumbnail {
+  margin: 10px;
+}
+
+.img-thumbnail:hover {
+  transform: scale(1.05);
+}
+
+.footer {
+  background-color: #34495e;
+  height: 200px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.footer-title {
+  font-size: 20px;
+  margin-top: 30px;
+  color: #FAFAFA;
+}
+
+.footer p {
+  color: #FAFAFA;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.fa {
+  margin: 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.fa:hover {
+  transform: scale(1.2);
+}
+
+
+@media all and (max-width: 1000px) { /* screen size until 1000px */
+    .intro {
+        font-size: 1em; /* 1.2x default size */
+        }
+    }
+@media all and (max-width: 500px) { /* screen size until 500px */
+    .intro {
+        font-size: 0.8em; /* 0.8x default size */
+        }
+    }
+/* .signature a {
+  font-family: 'Herr Von Muellerhoff', cursive;
+  font-size: 35px;
+  font-weight: bold;
+  color: #FAFAFA;
+} */
